@@ -1,0 +1,123 @@
+
+/* Here to set a background location,size and cancel any repetetion */
+.main_background{
+  font-family:cursive;
+  background-image: url("img/6ec44b1a91a7cda2803d76ae5fa3c745.jpg");
+  background-position:right top bottom left;
+  background-repeat: no-repeat;
+  background-size:cover; 
+}
+
+/* Here i set all the fonts to be italic and i chose color for it */
+*{
+    font-style: italic;
+    color: rgb(108, 24, 24);
+}
+
+/* Styling the body */
+body{
+/* Here i upload background image */
+    background-image: src = "img/cbcabc6226cbc4325fa62528e6ebad3f.jpg " alt "for the background";
+}
+
+/* Styling the nav bar */
+nav{
+    margin: 0%;
+    padding: 0%;
+    background-color:  rgba(226, 191, 191, 0.888);
+    display: inline;
+}
+/* Here i import border for the nav bar */
+.nav_bar{
+
+    height:50px;
+    width: 1450px;
+    border-color: #9a7373;
+    border-style: solid;
+    border-radius:12px ;
+    color: #574a4a;
+   
+}
+
+/* Here i set the font styling */
+nav{
+    font-size: 25px;
+    font-weight: bold;
+    text-align:right;
+}
+
+/* Here i set the text styling for the nav bar */
+nav a{
+    inline-size: 30px 40px;
+    display:inline;
+    color: rgb(70, 45, 45);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:underline;
+}
+
+/* Here i style the first setion (title and fun facts ) */
+.firstsection{
+    display: inline;
+    height:500px;
+    width:800px;
+    margin: 5px 10px ;
+    padding: 10px;
+    img{
+        border-radius:60%;
+        float:right;
+    }
+    font-style: italic;
+    color: rgb(86, 55, 55);
+
+}
+
+/* Here i bolded the first header */
+.hcolor{
+    font-weight: bold;
+}
+
+/* Here i style the second setion (preperation and ingredients ) */
+.secondsection{
+    display: inline;
+    height:500px;
+    width:800px;
+    margin: 5px 10px ;
+    padding: 10px;
+    img{
+        border-radius:60%;
+        float:left; 
+    }
+}
+
+/* Here i style the third setion (coocing instruction, baking instructionand and notes ) */
+.thirdsection{
+    display: inline;
+    height:500px;
+    width:800px;
+    margin: 5px 10px ;
+    padding: 10px;
+    img{
+        border-radius:60%;
+        float:right;
+    }
+}
+/* styling link */
+*a{
+    color: rgb(52, 20, 56);
+    text-decoration: underline;
+}
+
+/* styling table */
+table{
+    width: 70%;
+}
+th{
+    height: 40%;
+}
+/* styling the recipe_info section (color and background) */
+.Nutrition_facts {
+        background-color: #cebebe;
+        color: rgba(0, 0, 0, 0.93);
+}
+
