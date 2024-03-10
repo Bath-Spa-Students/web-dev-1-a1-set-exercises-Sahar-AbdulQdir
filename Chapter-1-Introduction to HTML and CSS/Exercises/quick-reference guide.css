@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(223, 234, 239);
+}
+*{
+    text-align: left;
+    color: #5d678f;
+}
+.h1{
+    background-color:  #f3e7ecfc;
+    color: rgb(7, 18, 98);
+    text-align: center;
+}
+.laptop{
+   float: right;
+   padding: 0%;
+}
+p.font_example{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p.weight_example{
+
+    font-weight: 600;
+}
+
+p.line_weight{
+    line-height: 5%;
+}
+
+p.text_align{
+    text-align: center;
+}
+
+p.bachground_color{
+background-color: aqua;
+
+}
+.laptop_2{
+    float:right;
+}
+
+p.colored_font{
+    color: blueviolet;
+}
+
+p.solid_border{
+    border: blue solid;
+}
+
+p.inset_border{
+    border: rgb(165, 104, 167) inset;
+}
+
+p.mixed_border{
+    border: rgb(75, 154, 133);
+    border-style:  groove outset dotted double;
+}
+.line_spacing{
+    line-height: 0.4;
+}
+.css_table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.css_table td,th{
+    border: 1px solid #425fb7;
+    text-align: left;
+    padding: 8px;
+}
