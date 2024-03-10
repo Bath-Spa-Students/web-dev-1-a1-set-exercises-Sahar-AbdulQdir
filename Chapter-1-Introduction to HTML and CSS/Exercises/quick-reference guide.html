@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A quick reference guide for HTML and CSS</title>
+    <link rel="stylesheet" href="quick-reference guide.css">
+   
+</head>
+<body>
+   <div class="first_section">
+    <h1 class="h1">A quick reference guide for HTML</h1>
+    <img class="laptop" src="reference guide photos/download__1_-removebg-preview.png" alt="laptop" width=120" height="100">
+
+<p>HTML is stands for (Hyper Text Markup Language) <br>
+Its the standard markup language for building website structure</p> 
+</div>
+
+<h2 class="h1">HTML elements</h2>
+<p>These elements are used to build the structure for the webpage<br>
+
+First thing you will see in the editor is a plan page : </p>
+<img src="reference guide photos/Screenshot 2024-03-05 164429.png" width="500" height=300" alt="plan page">
+
+<p>All you have to do to is to type an exclamation mark(!) and press enter then you’ll get this page :
+</p>
+<img src="reference guide photos\Screenshot 2024-03-05 164452.png" width="700" height=300" alt="page setting">
+
+<p>Now you have to name your website so people can find it easily by typing the name between the two title words,<br> as you can see it’s already written, just delete the written word and type your website name : <br>
+    For example : here i named it as “testing :
+    </p>
+    <img src="reference guide photos/Screenshot 2024-03-05 164600.png" width="700" height=300" alt="website name">
+    <p> Once you run the program it will be shown to you:<br>
+        Its showing nothing cause there is no tags or codes enter yet… 
+        </p>
+        <hr>
+        <p>Now let’s explain the
+            <h2 class="h1">The Set up tags:</h2> 
+            1.&lt;html &gt;tag <br>
+            &lt;!DOCTYPE html &gt; tag
+             : these are defining that it’s an HTML page <br>
+            2.Meta tags: those are the options that control your website<br>
+            <ul>
+           <li> &lt;meta charset&gt;<br>
+            choosing the language that your website support</li> <br>
+        <li>&lt;meta name (description about your website so people can easily find you) content>&gt;</li> </p>
+        </ul>
+        <hr>
+        <h2 class="h1">The body tags</h2> 
+            1.<code>header</code>: this is usually used for headings and it’s followed by a number that sets the size. <br>
+            Here is an example with each size:
+           <pre class="line_spacing"><h1>header</h1>&lt;h1&gt;header&lt;/h1&gt;
+            
+            <h2>header</h2>&lt;h2&gt;header&lt;/h2&gt;
+            
+            <h3>header</h3>&lt;h3&gt;header&lt;/h3&gt;
+            
+            <h4>header</h4>&lt;h4&gt;header&lt;/h4&gt;
+            
+            <h5>header</h5> &lt;h5&gt;header&lt;/h5&gt;
+            
+            <h6>header</h6> &lt;h6&gt;header&lt;/h6&gt;
+            
+            </pre>
+            <hr>
+            2.<code>paragraph</code> tag: this is to define a paragraph<br>
+            Code:<br>
+            &lt;p&gt;It's difficult to step ahead without technology&lt;p&gt;<br>
+            Output:<br>
+            It's difficult to step ahead without technology
+            
+            <hr>
+            <h2 class="h1">HTML text formatting</h2>
+<table border="3">
+
+    <tr>
+        <th>Element</th>
+        <th>Code</th>
+        <th>output</th>
+    </tr>
+    <tr>
+        <td>Bold-Strong</td>
+        <td>This text is &lt;strong&gt;bolded or stronged&lt;/strong&gt;</td>
+        <td>This text is <strong>bolded or stronged</strong></td>
+    </tr>
+
+    <tr>
+        <td>Italic-Emphasized</td>
+        <td>This text is &lt;em&gt;italic or emphasized&lt;/em&gt;</td>
+        <td>This text is <em>italic or emphasized</em></td>
+    </tr>
+
+    <tr>
+        <td>Small</td>
+        <td>This text is &lt;small&gt;smalled&lt/small&gt;</td>
+        <td>This text is <small>smalled</small></td>
+    </tr>
+
+    <tr>
+       <td>Mark</td>
+       <td>This text is &lt;mark&gt;marked&lt;/mark&gt;</td>
+       <td>This text is <mark>marked</mark></td>
+    </tr>
+
+    <tr>
+       <td>Del</td>
+       <td>This text is &lt;del&gt;deleted&lt;/del&gt; </td>
+       <td>This text is <del>deleted</del> </td>
+    </tr>
+ 
+    <tr>
+       <td>Ins-Underline</td>
+       <td>This text is &lt;ins&gt;inserted or underlined&lt;/ins&gt; </td>
+       <td>This text is <ins>inserted or underlined</ins></td>
+    </tr>
+
+    <tr>
+       <td>Subscript</td>
+       <td>This text is &lt;sub&gt;below the normal line&lt;/sub&gt;</td>
+       <td>This text is <sub>below the normal line</sub></td>
+    </tr>
+
+    <tr>
+       <td>Superscript</td>
+       <td>This text is&lt;sup&gt;above the normal line&lt;/sup&gt;</td>
+       <td>This text is<sup>above the normal line</sup></td>
+    </tr>
+
+    <tr>
+       <td>Break</td>
+       <td>This text is displayed&lt;br&gt;to the next line</td>
+       <td>This text is displayed<br>to the next line</td>
+     </tr>
+
+</table>
+<hr>
+<h1 class="h1">Lists</h1>
+<p>You can also make a list in html and there are three types of it 
+<ol>
+<li>Un -ordered list:<br> in this you will only be able to choose shapes to number your list, here is how :<br> Code:<br>
+    &lt;ul&gt;<br>
+    &lt;li&gt;Technology is the application of conceptual knowledge for achieving practical goals&lt;/li&gt;<br>
+    &lt;li&gt;We are all surrounded by technology from all corners&lt;/li&gt;<br>
+    &lt;li&gt;It's difficult to step ahead without technology&lt;/li&gt;<br>
+    &lt;/ul&gt;<br>
+    Output:
+  <ul>
+    <li>Technology is the application of conceptual knowledge for achieving practical goals</li>
+    <li>We are all surrounded by technology from all corners</li>
+    <li>It's difficult to step ahead without technology</li>
+  </ul>
+  &#9998;you can also change the circle into square, disc(&#9899;), and none.
+ </p></li>
+
+ <li><p>Ordered-list:<br>in this, you will only be able to choose numbers or letters to number on your list, here is how :<br>Code:<br>
+    &lt;ol&gt;<br>
+    &lt;li&gt;Technology is the application of conceptual knowledge for achieving practical goals&lt;/li&gt;<br>
+    &lt;li&gt;We are all surrounded by technology from all corners&lt;/li&gt;<br>
+    &lt;li&gt;It's difficult to step ahead without technology&lt;/li&gt;<br>
+    &lt;/ol&gt;<br>
+    Output:
+   <ol>
+    <li>Technology is the application of conceptual knowledge for achieving practical goals</li>
+    <li>We are all surrounded by technology from all corners</li>
+    <li>It's difficult to step ahead without technology</li>
+   </ol> 
+</p></li>
+
+  <li>Describtion list:<br>in this, there are no numbers,shapes or letters in it,here is how:<br>Code:<br> 
+    &lt;dl&gt;<br>
+    &lt;dt&gt;Technology:&lt;/dt&gt;<br>
+    &lt;dd&gt;Technology is the application of conceptual knowledge for achieving practical goals&lt;/dd&gt;<br>
+    &lt;/dl&gt;<br>
+    Output:
+   <dl>
+    <dt>Technology:</dt>
+    <dd>Technology is the application of conceptual knowledge for achieving practical goals</dd>
+   </dl> 
+  </li>
+</ol>
+<hr>
+<h2 class="h1">Tables</h2>
+You will use these codes to make a table <br>
+&lt;tr&gt; &lt;/tr&gt;  : this is for rows<br>
+&lt;td&gt;&lt;/td&gt;  : this is for data cells<br>
+&lt;th&gt; &lt;/th&gt;  : this if you have a heading you want it to be more obvious , here is how :<br> Code:
+&lt;table&gt;<br>
+&lt;tr&gt;<br>
+&lt;td&gt;text 1&lt;/td&gt;<br>
+&lt;td&gt; \text 2&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr&gt;<br>
+&lt;td&gt;text 3&lt;/td&gt;<br>
+&lt;td&gt; \text 4&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;/table&gt;<br>Output:
+
+<table>
+<tr>
+    <td>text 1</td>
+    <td>text 2</td>
+</tr>
+
+<tr>
+    <td>text 3</td>
+    <td>text 4</td>
+</tr>
+</table>
+<p>The table is not showing? this is because you have to set the border first, here is how:</p>Code:<br>
+&lt;table border=2&gt;<br>
+&lt;tr&gt;<br>
+&lt;td&gt;text 1&lt;/td&gt;<br>
+&lt;td&gt; \text 2&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr&gt;<br>
+&lt;td&gt;text 3&lt;/td&gt;<br>
+&lt;td&gt; \text 4&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;/table&gt;<br>
+Output:
+
+<table border = 2>
+    <tr>
+        <td>text 1</td>
+        <td>text 2</td>
+    </tr>
+    
+    <tr>
+        <td>text 3</td>
+        <td>text 4</td>
+    </tr>
+    </table>
+    &#9998;Number “3” beside the border sets the size.
+
+
+    <hr>
+<h2 class="h1">Photos, Audios and Videos</h2>
+<p>In HTML you can import photos,audio, and even videos! interesting right? Here is how:</p>
+First, you have to download it on your computer.<br>
+Then, let’s say you want to upload a photo.<br>
+this is the code :<br>
+&lt;img src="source or the link of the photo" alt="summarized describtion about the photo" width="" height=""&gt;<br>
+Example:&lt;img src="reference guide photos/cdc4a43affa746cddfa04fec7c5807f8.jpg" alt="forest" width="400" height="200"&lt;<br>
+Output:<br>
+<img src="reference guide photos/cdc4a43affa746cddfa04fec7c5807f8.jpg" alt="forest" width="400" height="200">
+
+
+<p>Follow the same way to video and audio:<br>
+    Code for video:<br>
+    &lt;video src="" width="" height="" controls &lt;/video&gt;<br>
+    &#9998;Controls: it sets the button used to play, mute, or stop the video (without it user can’t play the video).<br>
+    Output:<br>
+    <video src="reference guide photos/What is Technology_.mp4" width="400" height="200" controls ></video> <br>
+
+    Code for Audio:<br>
+    &lt;audio src="" controls &gt;<br>
+    Output:<br>
+    <audio src="reference guide photos/What is Technology_.mp3" controls></audio>
+   <hr>
+<h2 class="h1">anchor</h2>
+    This is to put a link in your website that leads you to another link, here is how : <br>Code:<br>
+    &lt;a href="link or url">the text that is leading to the link &lt;/a&gt;<br>
+    Output:<br>
+    <P>Take a tour at our university!<a href="https://bathspa.ac.ae/">click here!</a></P>
+</p>
+<hr>
+<h2 class="h1">Details</h2>
+<p>This is like button you press and it will show you detailed information about the topic, here is how :<br>
+Code: <br>
+    &lt;details&gt;<br>
+    &lt;summary&gt;The four types of Galaxies&lt;/summary&gt;<br>
+    &lt;P&gt;elliptical, spiral, barred spiral, and irregular.&lt;/P&gt;<br>
+    &lt;/details&gt;<br>
+    &lt;details&gt;<br>
+    &lt;summary&gt;Planets of our Solar System&lt;/summary&gt;<br>
+    &lt;p&gt;Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune&lt;/p&gt;<br>
+    &lt;/details&gt;<br>
+    &#9998;&lt;summary&gt;: this is where you type the topic<br>
+Output:
+<details>
+    <summary>The four types of Galaxies</summary>
+    <P>elliptical, spiral, barred spiral, and irregular.</P>
+</details>
+<details>
+    <summary>Planets of our Solar System</summary>
+    <p>Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune</p>
+</details>
+</p>
+<hr>
+<h2 class="h1">Buttons</h2>
+<p>This is usually use to do many things submission,reseting,,etc .<br>
+    And here is how to write the code: <br>
+    &lt;input type="button" value="button name"&gt;<br>
+    Output:<br>
+    <input type="button" value="submit">
+    <input type="button" value="press here">
+    <input type="button" value="re-order">
+    <input type="button" value="reset">
+    </p>
+    <hr>
+
+    <h2 class="h1">pre element</h2>
+    <p> element is displayed in a fixed-width font, and the text preserves both spaces and line breaks. <br>
+        The text will be displayed exactly as written in the HTML source code <br> For example:This is the code<br>
+        <img src="reference guide photos/Screenshot 2024-03-10 234611.png" alt="pre_code" width="300" height="200"><br>
+        and ths is the output:
+    <pre>The fight is won or      lost far away from witnesses
+
+
+         behind the lines, in the gym, and out there on the road,
+         long before I dance under those lights.
+
+        Muhammad Ali</pre><br>
+        
+    </p>
+    <hr>
+    <h2 class="h1">code element</h2>
+    <p>used to define a piece of computer code. The content inside is displayed in the browser's default monospace font.<br>
+        For examble, this is the code:<br>
+        <code>background-color</code> is used to change the color of the background.<br>
+        &#9998;see how the font changed as you are writing in the HTML file
+
+
+
+    </p>
+    <h2 class="h1">CSS Selectors</h2>
+<p>CSS selectors are used to "find" (or select) the HTML elements you want to style like:<br>
+1.class<br>
+you call the class selector in the css file by adding(.) before it's name <br>
+Then you open curly brakets {} and write your styling codes<br>
+2.id<br>
+you call the id selector in the css file by adding(#) before it's name <br>
+Then you open curly brakets {} and write your styling code<br>
+3.div<br>
+you call the div selector in the css file by writing it's name <br>
+4.the Universal Selector<br>
+The universal selector (*) selects all HTML elements on the page.
+
+</p>
+<hr>
+    <hr>
+    <img class="laptop_2" src="reference guide photos/OIP__7_-removebg-preview.png" alt="laptop2" width="120" height="150">
+    <h1 class="h1">CSS(Cascading Style Sheets)</h1>
+
+    <p>Which is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML<br>
+        CSS is designed to enable adding colors, layouts, and fonts to the website and it was developed by the W3C. 
+    </p>
+    <h2 class="h1">Types of cascading style sheets:</h2>
+    <p>
+    <h4>Inline Styles</h4>
+    An inline CSS is used to apply a unique style to a single HTML element.
+    <h4>Embedded Styles</h4>
+    An external style sheet is used to define the style for all the HTML page.
+    <h4>External Styles</h4>
+    An external style sheet is used to define the style for many HTML pages.  
+    <h4>Imported Styles</h4>
+    It's similiar to external styles.
+    </p>
+<hr>
+    <h5>How to link a HTML file with a CSS file:</h5>
+    <p>use this code an place it at the head section: <br>
+    &lt;link rel="stylesheet" href="mystyle.css"&gt;&lt;/p&gt;
+</p>
+<hr>
+
+
+<h2 class="h1">Formatting CSS Properties</h2>
+<table  border="4" css_table">
+<tr>
+    <th>Property</th>
+    <th>Usage</th>
+    
+</tr>
+<tr>
+    <td><code>background-color</code></td>
+    <td>Set the background color for a page</td>
+</tr>
+
+<tr>
+    <td><code>font-family</code></td>
+    <td>specifies the font for an element</td>
+</tr>
+<tr>
+    <td><code>font-size</code></td>
+    <td>sets the size of the text</td>
+</tr>
+
+<tr>
+    <td><code>font-style</code></td>
+    <td> specifies the font style for a text</td>
+</tr>
+<tr>
+    <td><code>font-weight</code></td>
+    <td> sets how thick or thin characters in text should be displayed</td>
+</tr>
+<tr>
+    <td><code>line-height</code></td>
+    <td>specifies the height of a line.</td>
+</tr>
+<tr>
+    <td><code>margin</code></td>
+    <td>used to create space around elements, outside of any defined borders.</td>
+</tr>
+<tr>
+    <td><code>padding</code></td>
+    <td>used to create space around an element's content, inside of any defined borders.</td>
+</tr>
+
+<tr>
+    <td><code>text-align</code></td>
+    <td>specifies the horizontal alignment of text in an element</td>
+</tr>
+
+<tr>
+    <td><code>text-decoration</code></td>
+    <td>specifies the decoration added to text</td>
+</tr>
+
+<tr>
+    <td><code>width</code></td>
+    <td>sets the width of an element</td>
+</tr>
+
+<tr>
+    <td><code>height</code></td>
+    <td>sets the height of an element</td>
+</tr>
+
+<tr>
+    <td><code>display</code></td>
+    <td> specifies the display behavior (the type of rendering box) of an element.</td>
+</tr>
+
+<tr>
+    <td><code>border</code></td>
+    <td>Set the style of the borders for different elements</td>
+</tr>
+</table>
+
+<p>Here are some examples for the CSS properties:<br>
+Example for <code>font-family</code> </p>
+
+<p class= "font_example">
+This is an example for a different font</p>
+
+<p class= "colored_font">
+    This is an example for a colored font</p>
+    
+
+<p class= "weight_example">
+    This is an example for a different font weight</p>
+
+<p class= "line_weight">
+    This is an example for a different line weight<br>
+    This is an example for a different line weight<br>
+    This is an example for a different line weight
+</p>
+    
+<p class= "text_align">
+    This is an example for an aligned text in the center</p>
+
+    <p class= "bachground_color">
+    This is an example for a colored background</p>
+<p>borders have a lot of shapes, let's mention3 of them:</p>
+<p class="solid_border"> This is a solid border </p>
+
+<p class="inset_border"> This is a inset border </p>
+
+<p class="mixed_border"> This is a mixed border </p>
+<hr>
+<h3 class="h1">symbols</h3>
+<p>To add symbols to an HTML page, you can use the HTML entity name or entity number.<br>
+here are exambles:</p>
+<table border="2">
+    <tr>
+    <th>Character</th>
+    <th>Dex/Hex</th>
+</tr>
+
+<tr>
+    <td>&#8372;</td>
+    <td>8372</td>
+</tr>
+<tr>
+    <td>&#219C;</td>
+    <td>219C</td>
+</tr>
+<tr>
+    <td>&#9650;</td>
+    <td>9650</td>
+</tr>
+<tr>
+    <td>&#9400;</td>
+    <td>9400;</td>
+</tr>
+</table>
+<p> You can add emogies also:</p>
+<table border="2">
+    <tr>
+<th>Emogie</th>
+<th>Hex/Dex</th>
+</tr>
+
+<tr>
+<td>&#128516;</td>
+<td>128516</td>
+</tr>
+
+<tr>
+<td>&#128654;</td>
+<td>128654</td>
+</tr>
+
+<tr>
+<td>&#x1F30B;</td>
+<td>x1F30B;</td>
+</tr>
+
+<tr>
+<td>&#x2615;</td>
+<td>x2615;</td>
+ </tr>
+          
+
+
+</table>
+
+
+
+
+</table>
+<hr>
+<h3 class="h1">The meter element</h3>
+<p> The meter element defines a scalar measurement within a known range.<br>
+<label class="screen_time" > screen time:</label>
+<meter class="screen_time" value="80" max="100" min="0%"> 80 out of 100</meter>
+</p>
+
+<hr>
+
+
+
+
+
+
+</body>
+</html>
