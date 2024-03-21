@@ -109,6 +109,7 @@ img{
 /* choosing filters for the images */
 .first_filter{
     filter: brightness(100%);
+    filter: grayscale(3%);
 }
 
 .second_filter{
@@ -119,6 +120,7 @@ img{
 .third_filter{
     filter: brightness(100%);
     filter: saturate(2);
+    filter: sepia(40%);
 }
 
 .textcontent1{
