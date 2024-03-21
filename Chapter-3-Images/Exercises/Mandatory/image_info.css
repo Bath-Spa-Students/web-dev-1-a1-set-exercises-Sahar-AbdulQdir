@@ -1,0 +1,120 @@
+/* controlling the position and styling the font for the content*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+.container{
+width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(255, 255, 255, 0.537), rgba(255, 255, 255, 0.592)), url(Mosque_img/pexels-engin-akyurt-2104856.jpg);
+background-position: center;
+background-size: cover;
+padding-left: 8%;
+padding-right: 8%;
+box-sizing: border-box;
+justify-content: center;
+flex-direction: column;
+}
+
+/* styling the nav bar */
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.nav_bar{
+    background-color: #5053553e; 
+}
+
+.menu_icon{
+width: 40px;
+height: 30px;
+cursor: pointer;
+margin-left: 40px;
+}
+
+.logo_icon{
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+}
+
+/* controlling the hieght and the align of the items*/
+.Main_content{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+/* styling the first section */
+.firstsection{
+    display: inline;
+    height:500px;
+    width:800px;
+    margin: 5px 10px ;
+    padding: 10px;
+    img{
+        border-radius:25px;
+        float:right;
+    }
+    font-style: italic;
+    color: rgb(0, 0, 0);
+
+}
+
+/* styling the section section */
+.secondsection{
+    display: inline;
+    height:500px;
+    width:800px;
+    margin: 5px 10px ;
+    padding: 10px;
+    img{
+        border-radius:25px;
+        float:left;
+    }
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+/* styling the third section */
+.thirdsection{
+    display: inline;
+    height:500px;
+    width:800px;
+    margin: 5px 10px ;
+    padding: 10px;
+    img{
+        border-radius:25px;
+        float:right;
+    }
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+   /* styling the footer */
+.footer{
+    font-size: 15px;
+    color: #0000009b;
+    text-align: center;
+    background-color: #5053551d;
+} 
+ 
