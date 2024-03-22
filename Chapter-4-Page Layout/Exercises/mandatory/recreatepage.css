@@ -1,0 +1,93 @@
+
+/* controlling the position and styling the font for the content*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Arial", 400;
+}
+
+/* setting the height for the body */
+body{
+    height:100%;
+}
+
+/* styling the color and the font for the header*/
+header{
+    background-color: #17072b; 
+    text-align:  center;
+    color: #ffffff;
+    h1{
+        font-size: 45px;
+        font-weight: bold;
+    }
+}
+
+/*styling the navbar*/
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+/* controlling the main part flexebility */
+.container{
+    display: flex;
+}
+/* controlling the sections flexebility and their padding*/
+.first_section,.second_section{
+    flex: 1;
+    padding: 20px;
+}
+
+/* styling the first section*/
+.first_section{
+    position: absolute;
+    left: 3px;
+    top: 145px;
+    bottom: 0;
+    h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 19px;
+    }
+}
+
+/* styling the second section*/
+.second_section{
+    position: absolute;
+    right: 10px;
+    top: 145px;
+    bottom: 100px;
+    background-color:#172d67;
+    color: #FFFFFF;
+    h2{
+        font-size: 35px;
+    }
+    ul li{
+        font-size:19px;
+    }
+}
+
+/* styling the footer*/
+footer{
+    background-color: #8c15e9;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+}

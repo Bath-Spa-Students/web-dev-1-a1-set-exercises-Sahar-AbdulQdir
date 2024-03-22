@@ -1,0 +1,113 @@
+/* styling the background and the font for the whole page */
+*{
+    font-family: "metal", serif;
+    font-style: normal;
+    background-color: #f2ebfb64;
+    color: #222222;
+}
+
+/* styling the header */
+header{
+    h1{
+        text-align: center;
+        border: 4px solid #ba8be7;
+        border-radius: 25px;
+        font-size: 45px;
+        font-family:"playball" , cursive;
+        text-shadow: 5px 5px 3px #9667E0;
+        margin: 0%;
+
+    }
+    
+/* styling the nav bar */
+.navbar ul{
+    list-style:none;
+    background-color: #D4BBFC;
+    padding: 0.5%;
+    margin: 0% auto;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.navbar a{
+    color: #000000;
+    background-color: #af89ed;
+    text-decoration: none;
+    padding: 15px;
+    display:inline;
+    text-align: center;
+    font-size: 25px;
+}
+.navbar a:hover{
+    background-color: #718592;
+}
+.navbar li{
+    display: inline;
+    background-color: #D4BBFC;
+    padding-left: 20%;
+}
+
+}
+
+/* styling the first demo */
+.demo_container1{
+.info, td {
+    border: 2px solid #F2EBFB ;
+    border-radius: 25px;
+    border-width: 10px;
+    width: 500px;
+    font-size: 17px;
+    text-align:left;
+    text-indent: 5px;
+}
+
+
+
+.info th, td {
+    background-color: #EBD9FC;
+}
+
+}
+
+.info th{
+    border: 2px solid #EBD9FC ;
+    border-radius: 25px;
+    border-width: 4px;
+    background-color: #EBD9FC;
+    width: 300px;
+    font-size: 17px;
+    text-align:left;
+    text-indent: 5px;
+}
+
+/* styling a header */
+h2{
+    background-color: #e9e2fc;
+    text-align: center;
+    text-shadow: 5px 5px 5px #bf49caed;
+}
+
+/* styling a header */
+h3{
+    font-size: 30px;
+
+}
+
+/* styling the second demo */
+.demo_container2{
+    display: inline;
+    img{
+        border-radius: 25px;
+        position: absolute;
+        right: 8px;
+        top: 230px;
+        text-indent: 3px;
+    }
+}
+
+/* changing the color for the marked text */
+mark{
+    background-color: #EBD9FC;
+}
+
