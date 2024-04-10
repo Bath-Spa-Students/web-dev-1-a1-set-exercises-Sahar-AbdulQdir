@@ -1,3 +1,4 @@
+/*Resetting default margin & padding*/
 body{
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@ body{
     font-family: sans-serif;
 }
 
+/*Container styling*/
 .container{
     position: absolute;
     top: 50%;
@@ -21,6 +23,7 @@ body{
 
 }
 
+/*Image section styling*/
 .image{
  width: 350px;
  height: 420px;
@@ -32,6 +35,7 @@ body{
     height: 100%;
 }
 
+/*Styling the Input box*/
 .input_BOX{
     width: 350px;
     height: 260px;
@@ -41,17 +45,20 @@ body{
 
 }
 
+/*Styling the heading*/
 h3{
     margin: 0;
     padding: 0 0 20px;
     color: #262626;
 }
 
+/*Input field styling*/
 .Petrol_cal input{
     width: 100%;
     margin-bottom: 20px; 
 }
 
+/*Styling the input fields*/
 .num_of_Litres , .Petrol_price{
     justify-content: space-between;
     border: none;
@@ -65,6 +72,7 @@ h3{
     box-sizing: border-box;
 }
 
+/*Styling the button*/
 button{
     position: relative;
     top: 40px;
@@ -78,27 +86,31 @@ button{
    height: 40px;
 }
 
+/*Hover effect for the button*/
 .btn:hover{
     background: rgb(195, 197, 189);
     background: linear-gradient(0deg, rgb(188, 156, 108) 0%, rgb(210, 173, 103)100%);
 }
 
-
+/*Styling the place holder*/
 ::placeholder
 {
     color: rgba(0,0,0,.5);
 }
 
+/*Setting the position for petrol calc*/
 .Petrol_calc{
     position: relative;
 }
 
+/*Setting the position for a paragraph*/
 p{
     position: relative;
     top: 45px;
 
 }
 
+/*Setting the position for total*/
 .total{
     position: relative;
     left: 120px;
