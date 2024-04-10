@@ -8,23 +8,32 @@
 </head>
 <body>
     <script src="index.js"></script>
+    <!--Container for the webpage content-->
     <div class="container">
+        <!--Image section-->
         <div class="image">
             <img src="Untitled design.png" >
 </div>
+        <!--Input box section-->
 <div class="input_BOX" >
+    <!--Heading for the petrol calculator-->
     <h3>Petrol Calculator</h3>
+     <!--Form for inputting petrol price & number of litres-->
     <form>
+        <!--Container for petrol price Input-->
         <div class="Petrol_calc">
             <input class="Petrol_price" placeholder="1.72" type="number">
         </div>
+        <!--Container for number of litres Input-->
         <div class="Petrol_calc">
             <input class="num_of_Litres" placeholder="1" type="number">
         </div>
+        <!--Button to calculate total-->
         <button class="btn" onclick="calculate()" >Total</button>
     </form>
-
+    <!--Displaying total price-->
     <p>Total price is:</p>
+    <!--Element to display the calculated total-->
     <h2 class="total"></h2>
     
 </div>
