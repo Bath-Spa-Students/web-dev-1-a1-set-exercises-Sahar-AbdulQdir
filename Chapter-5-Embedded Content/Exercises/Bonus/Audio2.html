@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Audio2.css">
+    <script src="Audio2.js"></script>
+</head>
+
+<body>
+    <div class="row-container">
+    <div class="column">
+        <div class="title1">
+            <!--This is the first title for the web page-->
+        <h2 >Text to speak converter</h2>
+    </div>
+    <!--This is an Input field to connvert any text written by the user to speech-->
+        <input type="text"id="txt_to_speech" placeholder="Enter your text">
+        <!--This button is to activate the process of converting-->
+        <div class="btn" >
+        <button type="button" onclick="textToAudio()" >speak</button><br>
+        <!--This is a message for users to guide them-->
+        <p>&#128392; Enter the text first so you can hear </p>
+    </div>
+    <!--This button is to allow users to navigate to the previous page-->
+    <div class="btn_2">
+        <button class="nxt_page2" type="button" onclick='location.href="http://127.0.0.1:5500/Chapter-5-Embedded%20Content/Exercises/Bonus/Audio.html"''>&#x21b6;</button>
+    </div>
+    </div>
+    <div class="container_2">
+        <!--This is the second title for the web page-->
+        <h2>Sample bank 2</h2>
+    <div class="column" >
+        <div class="audios_container">
+             <!--This is div named column1,inside this div there are multiple divs with class container3_item
+    each containing a button element that have inclick attributes triggering javascript function to play different audio files -->
+        <div class="column1" >
+        <div class="container3_item" ><button onclick="audio9.play();">9.<br>can we talk about me<br>0.3s</button></div>
+        
+
+        <div class="container3_item" ><button onclick="audio10.play();">10.<br>hehehei<br>0.1s</button></div>
+       
+
+        <div class="container3_item" ><button onclick="audio11.play();">11.<br>funny stories<br>0.3s</button></div>
+    </div>
+    <div class="column1" >
+        <div class="container3_item" ><button onclick="audio12.play();">12.<br>ha ha ha unbelieveable<br>0.2s</button></div>
+    
+    
+        <div class="container3_item" ><button onclick="audio13.play();">13.<br>haha oh no haha<br>01.s</button></div>
+       
+
+        <div class="container3_item" ><button onclick="audio14.play();">14.<br>i'm leaving you you cow<br>0.1s</button></div>
+    </div>
+    <div class="column1" >
+        <div class="container3_item" ><button onclick="audio15.play();">15.<br>what is it all about<br>0.1s</button></div>
+        
+        <div class="container3_item" ><button onclick="audio16.play();">16.<br>you couldnt present a cat<br>0.2s</button></div>
+        
+
+        <div class="container3_item" ><button onclick="audio17.play();">17.<br>you're not in the army anymore<br>0.1s</button></div>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>

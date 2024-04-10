@@ -1,0 +1,167 @@
+/*setting default margin, padding &box sizing for all the elements*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Styling the background for the page*/
+body{
+    background-image: url(stars.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*Styling the Input field inside the class column*/
+.column{
+    input{
+        position: relative;
+        top:100px;
+        left: 40px;
+        border: 1px solid blue;
+        border-radius: 25px;
+        outline: none;
+        text-indent: 5px;
+       width: 55%;
+        height: 60px;
+    }
+    p{
+        color: whitesmoke;
+        position: relative;
+        top:90px;
+        left: 40px;
+    }
+}
+/*A hover effect for the button*/
+button:hover{
+    transition: all 0.3s ease-in-out;
+    background-position: 100%;
+    color: #b222e2;
+    font-size: large;
+}
+/*Styling the heading*/
+.title1{
+    h2{
+        width: 400px;
+        height: 35px
+    }
+    position: relative;
+    left: 95px;
+    top: -15px;
+
+}
+/*Styling another heading*/
+h2{
+    border-radius: 25px;
+    background-image: linear-gradient(90deg, #000, #00fff7, #b222e2);
+    margin-top: 10px;
+    color: aliceblue;
+    text-align: center;
+    height: 35px;
+    width: 700px;
+    float:right;
+    position: relative;
+    right: 120px;
+    top: 20px;
+    button{
+        border: none;
+        padding: 16px 24px;
+        font-weight: 600;
+        font-size: 1rem;
+        color: aliceblue;
+        border-radius: 999px;
+        cursor: pointer;
+        background-image: linear-gradient(90deg,#b222e2, #00fff7, #000);
+        background-size: 400% 400%;
+        transition: background-position 0.5s ease;
+        width: 300px;
+        height: 90px;
+        outline: none;
+        margin: 10px;
+    }
+    /*A hover effect for the button*/
+    button:hover{
+        transition: all 0.3s ease-in-out;
+        background-position: 100%;
+        color: #b222e2;
+    }
+}
+
+.audios_container{
+    position: relative;
+    top: 20px;
+}
+/*Styling the button inside the column*/
+.column{
+    float: left;
+  width: 35%;
+  padding: 20px;
+  height: 300px;
+  button{
+    border: none;
+    padding: 16px 24px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: aliceblue;
+    border-radius: 999px;
+    cursor: pointer;
+    background-image: linear-gradient(90deg,#b222e2, #00fff7, #000);
+    background-size: 400% 400%;
+    transition: background-position 0.5s ease;
+    width: 280px;
+    height: 90px;
+    outline: none;
+    margin: 10px;
+}
+
+}
+/*Styling the audio files button by using CSS grid*/
+.column1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+/*Clearing floats*/
+.row-container::after{
+    content: "";
+    display: table;
+    clear: both; 
+}
+/*Styling the button with class .btn*/
+    .btn{
+        button{
+        border: none;
+        font-weight: 600;
+        font-size: 1rem;
+        color: aliceblue;
+        border-radius: 25px;
+        cursor: pointer;
+        background-image: linear-gradient(90deg,#b222e2, #00fff7, #000);
+        background-size: 400% 400%;
+        transition: background-position 0.5s ease;
+        width: 150px;
+        height: 60px;
+        outline: none;
+        float: right;
+        position: relative;
+        top: 30px;
+        }
+    }
+/*Styling the button with class .btn2*/
+    .btn_2{
+        button{
+        border: none;
+        font-weight: 600;
+        font-size: 1rem;
+        color: aliceblue;
+        border-radius: 25px;
+        cursor: pointer;
+        background-image: linear-gradient(90deg,#b222e2, #00fff7, #000);
+        background-size: 400% 400%;
+        transition: background-position 0.5s ease;
+        width: 90px;
+        height: 60px;
+        outline: none;
+        float: left;
+        position: relative;
+        bottom: -600px;
+        }
+    }
